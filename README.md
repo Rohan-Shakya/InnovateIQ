@@ -1,6 +1,6 @@
-# Startup Website
+# InnovateIQ | Accelerating Your Startup and SaaS Success
 
-Startup is a high-quality and visually appealing, feature-rich website to launch a startup, business, or SaaS website.
+Our website provides startup and SaaS solutions, including website design, development, marketing strategies, and business consulting services. We help businesses at any stage to succeed in today's competitive market and reach their full potential.
 
 ## Getting Started
 

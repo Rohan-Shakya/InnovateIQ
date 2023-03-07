@@ -1,8 +1,14 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 import type { Metadata } from "next";
+import "../styles/index.css";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "Next.js for Startup and SaaS",
-  description: "Crafted for Startup and SaaS Business",
+  title: "InnovateIQ | Accelerating Your Startup and SaaS Success",
+  description:
+    "Our website provides startup and SaaS solutions, including website design, development, marketing strategies, and business consulting services. We help businesses at any stage to succeed in today's competitive market and reach their full potential.",
   authors: [{ name: "Rohan Shakya", url: "https://shakyarohan.com.np" }],
   keywords: "startup, sass",
   viewport: "width=device-width, initial-scale=1",
@@ -10,10 +16,11 @@ export const metadata: Metadata = {
     index: true,
   },
   openGraph: {
-    title: "Next.js for Startup and SaaS",
-    description: "Crafted for Startup and SaaS Business",
+    title: "InnovateIQ | Accelerating Your Startup and SaaS Success",
+    description:
+      "Our website provides startup and SaaS solutions, including website design, development, marketing strategies, and business consulting services. We help businesses at any stage to succeed in today's competitive market and reach their full potential.",
     url: "https://rohan-startup-website.vercel.app",
-    siteName: "Next.js for Startup and SaaS",
+    siteName: "InnovateIQ | Accelerating Your Startup and SaaS Success",
     images: [
       {
         url: "https://rohan-startup-website.vercel.app/images/logo/logo.svg",
@@ -34,7 +41,7 @@ export const metadata: Metadata = {
   publisher: "Vercel",
   appleWebApp: {
     capable: true,
-    title: "Next.js for Startup and SaaS",
+    title: "InnovateIQ | Accelerating Your Startup and SaaS Success",
     statusBarStyle: "black-translucent",
   },
 };
@@ -46,7 +53,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="dark:bg-black">
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+          <ScrollToTop />
+        </Providers>
+      </body>
     </html>
   );
 }
