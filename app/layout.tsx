@@ -1,9 +1,10 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
-import "../styles/index.css";
 import { Providers } from "./providers";
 import ScrollToTop from "@/components/ScrollToTop";
+import "../styles/index.css";
+import "node_modules/react-modal-video/css/modal-video.css";
 
 export const metadata: Metadata = {
   title: "InnovateIQ | Accelerating Your Startup and SaaS Success",
