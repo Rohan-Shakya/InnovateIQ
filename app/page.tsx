@@ -1,3 +1,5 @@
+import About from "@/components/About";
+import Brands from "@/components/Brands";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Video from "@/components/Video";
@@ -11,6 +13,8 @@ export default function Home() {
       <Hero />
       <Features />
       <Video />
+      <Brands />
+      <About />
     </>
   );
 }
