@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-const Breadcrumb = ({ pageName, description }) => {
+type Props = {
+  pageName: string;
+  description: string;
+};
+
+const Breadcrumb = ({ pageName, description }: Props) => {
   return (
     <>
       <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
