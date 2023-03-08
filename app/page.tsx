@@ -1,5 +1,7 @@
 import About from "@/components/About";
+import Blogs from "@/components/Blogs";
 import Brands from "@/components/Brands";
+import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
@@ -19,6 +21,8 @@ export default function Home() {
       <About />
       <Testimonials />
       <Pricing />
+      <Blogs />
+      <Contact />
     </>
   );
 }
