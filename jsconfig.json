@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "module": "ES6",
+    "jsx": "preserve",
+    "checkJs": true,
+    "baseUrl": "."
   }
 }

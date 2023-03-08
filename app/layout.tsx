@@ -1,9 +1,9 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ScrollToTop from "@/components/ScrollToTop";
 import type { Metadata } from "next";
 import "../styles/index.css";
 import { Providers } from "./providers";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "InnovateIQ | Accelerating Your Startup and SaaS Success",
